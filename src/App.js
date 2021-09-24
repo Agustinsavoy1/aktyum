@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Cover from "./components/cover/Cover";
+import Navbar from "./components/navbar/Navbar";
+import Releases from "./components/releases/Releases";
+import Footer from "./components/footer/Footer";
+import Slider from "./components/slider/Slider";
+import Separador from "./components/separador/Separador";
+import Bio from "./components/bio/Bio";
+import Form from "./components/form/Form"
+import Playlists from "./components/playlists/Playlists";
+import Booking from "./components/booking/Booking";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Cover />
+      <Navbar />
+      <Releases />
+      <Separador />
+      <Slider />
+      <Playlists />
+      <Bio />
+      <Booking />
+      <Form />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,48 @@
+.col {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.col-item {
+  width: 100%;
+  height: 500px;
+  padding-top: 95px;
+  padding-left: 90px;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.col-item > .release-card {
+  padding-left: 80px;
+}
+
+.col-item > .release-card > .release-card-text > h3 {
+  color: aliceblue;
+}
+
+.col-item > .release-card > .release-card-text {
+  width: 100%;
+  height: 265px;
+  color: aliceblue;
+}
+
+.col-item > .release-card > .release-card-text a {
+
+}
+
+.releseas-bg {
+  background: url("https://psymedia.co.za/wp-content/uploads/ozora-festival.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.glass {
+  background: rgba(0, 0, 0, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}

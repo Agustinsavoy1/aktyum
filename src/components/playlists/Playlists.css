@@ -1,0 +1,28 @@
+section {
+    background-image: url('../../media/bg-playlists.jpg');
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.playlists-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlists-container > .playlist-sc {
+    height: 500px;
+    width: 500px;
+}
+
+.playlists-container > .playlist-bp {
+    height: 500px;
+    width: 500px;
+}
+
+.playlists-container > .playlist-sp {
+    height: 500px;
+    width: 500px;
+}

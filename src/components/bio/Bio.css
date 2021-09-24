@@ -1,0 +1,36 @@
+.bio-container {
+   width: 100%;
+   height: 750px;
+   margin-right: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+}
+
+.bio-container > .img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bio-container > .text-container {
+    margin-top: 30px;
+    text-align: center;
+    color: aliceblue;   
+}
+
+.bio-container > .text-container > p {
+    width: 350px;
+}
+
+.profilepic {
+    margin: auto 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    object-fit: cover;
+    background-size: cover;
+}
+

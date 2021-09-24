@@ -1,0 +1,25 @@
+section {
+    background-image: url('../../media/bg-playlists.jpg');
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.booking-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.booking-logos {
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+.booking-container {
+    width: 100%;
+    height: 500px;
+}
